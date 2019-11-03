@@ -1,0 +1,19 @@
+{
+  "name": "rits/model-translate",
+  "description": "A Laravel package to translate models",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Lopes",
+      "email": "danielorkae@outlook.com"
+    }
+  ],
+  "require": {
+    "illuminate/translation": "^6.4"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
