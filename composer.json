@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Rits\\ModelTranslation\\": "src/"
+      "Rits\\ModelTranslate\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -24,7 +24,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Rits\\ModelTranslation\\Providers\\ServiceProvider"
+        "Rits\\ModelTranslate\\Providers\\ServiceProvider"
       ]
     }
   }

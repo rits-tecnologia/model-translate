@@ -1,6 +1,6 @@
 <?php
 
-namespace Rits\ModelTranslation\Providers;
+namespace Rits\ModelTranslate\Providers;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
