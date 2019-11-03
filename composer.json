@@ -9,9 +9,14 @@
     }
   ],
   "require": {
-    "illuminate/translation": "^6.4"
+    "php": "^7.1",
+    "illuminate/translation": "^5.8|^6.0",
+    "illuminate/support": "^5.8|^6.0"
   },
   "autoload": {
+    "psr-4": {
+      "Rits\\ModelTranslation\\": "src/"
+    },
     "files": [
       "src/helpers.php"
     ]
